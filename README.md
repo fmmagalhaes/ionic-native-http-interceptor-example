@@ -1,12 +1,10 @@
-# Random Country
+# Ionic Native Http Interceptor Example
 
-This Ionic Angular app retrieves and displays details of a random country using the [RESTCountries API](https://restcountries.com/).
+An HTTP interceptor in Ionic that seamlessly switches between native HTTP requests (using Cordova Advanced HTTP) on native devices and default HTTP requests on web browsers.
 
-Built in the context of the article [_I built the same app with Flutter, React Native, and Ionic_
-](https://medium.com/@fmmagalhaes/i-built-the-same-app-with-flutter-react-native-and-ionic-33ff8b358562)
+This project integrates and adapts the solution described in [An elegant way to handle native http requests with Cordova Advanced HTTP in an Ionic app](https://manuel-heidrich.dev/blog/an-elegant-way-to-handle-native-http-requests-with-cordova-advanced-http-in-an-ionic-app/) in an application that uses Ionic standalone components.
 
-## Test
-https://fmmagalhaes.github.io/random-country-ionic-angular
+This is a fork from https://github.com/fmmagalhaes/random-country-ionic-angular
 
 ## Run
 - Run in the browser with `ionic serve`
@@ -14,7 +12,5 @@ https://fmmagalhaes.github.io/random-country-ionic-angular
 
 <img src="https://github.com/fmmagalhaes/random-country-ionic-angular/assets/8866496/257cf930-5b13-4b9d-95d4-17699c438cdf" width="300">
 
-## Deploy to GitHub Pages
-The web version of the app was deployed to Github Pages using [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages)
-1. `ng add angular-cli-ghpages`
-2. `ng deploy --dir=www --base-href=/random-country-ionic-angular/`
+## Interceptor
+To better understand the modifications made to introduce the interceptor in this project, check the second commit.
